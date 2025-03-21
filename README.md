@@ -141,8 +141,8 @@ This project is a **Notification and Social Interaction System** designed for an
 ### **🔹 Installation Steps**
 ```sh
 # Clone the repository
-git clone https://github.com/maik101010/notification-system-interview.git
-cd notification-system
+git clone https://github.com/maik101010/notification-interview
+cd notification-interview
 ```
 
 ### **🔹 Running the Application**
@@ -150,19 +150,8 @@ cd notification-system
 mvn clean install
 ```
 
-
 ## **📌 Future Enhancements**
-- Implement **database storage** for persistent users and friendships.
-- Introduce a **GUI** for improved user experience.
-- Use **WebSockets** for real-time notifications.
-
----
-
-## **🤝 Contributing**
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -m 'Added new feature'`).
-4. Push to your branch (`git push origin feature-branch`).
-5. Create a Pull Request.
-
+- Implement **database storage** for persistent users and friendships information.
+- Introduce a **GUI** for improved user experience, maybe using a FE tool such as react or angular.
+- Use **WebSockets** for real-time notifications, or we can use real tools such as kafka, rabbit mq for handling the subscriptions and notifications in real time.
 ---
